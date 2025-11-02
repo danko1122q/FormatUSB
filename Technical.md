@@ -1,4 +1,4 @@
-# FormatUSB v1.0.0.3 - Technical Documentation
+# FormatUSB v1.0.3 - Technical Documentation
 
 ## Overview
 
@@ -6,18 +6,18 @@ FormatUSB is a modern, user-friendly USB formatting tool with a compact and soli
 
 ## Recent Changes
 
-### Version 1.0.0.3 (October 03, 2025)
+### Version 1.0.3 (October 03, 2025)
 - Minor updates and improvements
 - Updated documentation with detailed installation guide
 - Added comprehensive health check script (`check_formatusb.sh`)
 - Improved README with troubleshooting section
 
-### Version 1.0.0.2 (October 03, 2025)
+### Version 1.0.2 (October 03, 2025)
 - Removed license button from about dialog
 - Embedded CHANGELOG into application resources (no longer depends on external file)
 - Improved resource management and application portability
 
-### Version 1.0.0.1 (September 25, 2025)
+### Version 1.0.1 (September 25, 2025)
 - Initial release after fork
 - Project successfully imported and all compilation errors fixed
 - Updated copyright to FormatUSB Team
@@ -28,7 +28,7 @@ FormatUSB is a modern, user-friendly USB formatting tool with a compact and soli
 
 - **Copyright**: Must use "FormatUSB Team"
 - **GUI Style**: Compact and solid with modern styling
-- **Version**: Consistently use v1.0.0.3 across all files
+- **Version**: Consistently use v1.0.3 across all files
 - **Build**: Uses Qt5 with C++20 standard
 - **Resources**: CHANGELOG embedded as internal resource
 
@@ -141,7 +141,7 @@ sudo apt install -y exfat-fuse exfat-utils
 
 ```bash
 # Clone the repository
-git clone https://github.com/WHO-AM-I-404/FormatUSB.git
+git clone https://github.com/danko1122q/FormatUSB.git
 cd FormatUSB
 
 # Generate Makefile
@@ -278,7 +278,7 @@ Expected output:
 
 ```
 FormatUSB - USB Drive Formatting Tool
-Copyright (C) 2025 FormatUSB Team
+Copyright (C) 2025 danko1122q
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -318,8 +318,8 @@ Licensed under GPL v3 or later. See [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **GitHub**: [https://github.com/WHO-AM-I-404/FormatUSB](https://github.com/WHO-AM-I-404/FormatUSB)
-- **Issues**: [GitHub Issues](https://github.com/WHO-AM-I-404/FormatUSB/issues)
+- **GitHub**: [https://github.com/WHO-AM-I-404/FormatUSB](https://github.com/danko1122q/FormatUSB)
+- **Issues**: [GitHub Issues](https://github.com/danko1122q/FormatUSB/issues)
 - **Email**: formatusb1122@gmail.com
 
 ---
