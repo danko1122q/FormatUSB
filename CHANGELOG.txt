@@ -2,7 +2,7 @@ formatusb (1.1.0-1) UNRELEASED; urgency=medium
 
   * Major update and modernization
   * Updated copyright to danko12
-  * Updated repository URLs to https://github.com/dezuuu12/FormatUSB
+  * Updated repository URLs to https://github.com/danko1122q/FormatUSB
   * Modernized codebase with enhanced error handling
   * Improved build system compatibility with Replit environment
   * Comprehensive English documentation
@@ -11,9 +11,9 @@ formatusb (1.1.0-1) UNRELEASED; urgency=medium
   * Improved user interface with modern styling
   * Better safety checks for system drive protection
 
- -- danko12 <formatusb1122@gmail.com>  Fri, 25 Oct 2025 13:30:00 +0700
+ -- Formatusb Team <formatusb1122@gmail.com>  Fri, 25 Oct 2025 13:30:00 +0700
 
-formatusb (1.0.0.3-1) UNRELEASED; urgency=medium
+formatusb (1.0.3-1) UNRELEASED; urgency=medium
 
   * Minor update and improvements
   * Updated documentation with detailed installation guide
@@ -22,7 +22,7 @@ formatusb (1.0.0.3-1) UNRELEASED; urgency=medium
 
  -- FormatUSB Team <formatusb1122@gmail.com>  Thu, 03 Oct 2025 12:00:00 +0700
 
-formatusb (1.0.0.2-1) UNRELEASED; urgency=medium
+formatusb (1.0.2-1) UNRELEASED; urgency=medium
 
   * Removed license button from about dialog
   * Embedded CHANGELOG into application resources
@@ -31,7 +31,7 @@ formatusb (1.0.0.2-1) UNRELEASED; urgency=medium
 
  -- FormatUSB Team <formatusb1122@gmail.com>  Thu, 02 Oct 2025 00:00:00 +0700
 
-formatusb (1.0.0.1-1) UNRELEASED; urgency=medium
+formatusb (1.0.1-1) UNRELEASED; urgency=medium
 
   * Initial release after fork
   * GUI for USB formatting
