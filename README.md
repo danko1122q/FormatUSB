@@ -651,7 +651,7 @@ FormatUSB/
 - Better Qt5/Qt6 compatibility
 - Cleaner code structure and organization
 
-### Version 1.0.0.3 (October 03, 2025)
+### Version 1.0.3 (October 03, 2025)
 
 **Changes:**
 - ➕ **Added** comprehensive health check script
@@ -659,14 +659,14 @@ FormatUSB/
 - 🔧 **Improved** README with troubleshooting section
 - 🌐 **Converted** all documentation to English
 
-### Version 1.0.0.2 (October 03, 2025)
+### Version 1.0.3 (October 03, 2025)
 
 **Changes:**
 - ➖ **Removed** license button from about dialog (cleaner UI)
 - 📦 **Embedded** CHANGELOG.txt into application resources
 - 🚀 **Improved** resource management and portability
 
-### Version 1.0.0.1 (September 25, 2025)
+### Version 1.0.1 (September 25, 2025)
 
 **Changes:**
 - 🎉 Initial release after fork from MX Linux FormatUSB
@@ -683,7 +683,7 @@ Contributions are welcome! Here's how you can help:
 
 ### Reporting Bugs
 
-1. Open [GitHub Issues](https://github.com/dezuuu12/FormatUSB/issues)
+1. Open [GitHub Issues](https://github.com/danko1122q/FormatUSB/issues)
 2. Check if the bug is already reported
 3. Create a new issue with:
    - **OS & Version**: Ubuntu 22.04, Debian 12, etc.
@@ -699,7 +699,7 @@ Contributions are welcome! Here's how you can help:
 1. **Fork** the repository
 2. **Clone** your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/FormatUSB.git
+   git clone https://github.com/danko1122q/FormatUSB.git
    ```
 3. **Create feature branch**:
    ```bash
@@ -771,8 +771,8 @@ See [LICENSE](LICENSE) file for complete details.
 
 ## 📞 Support & Contact
 
-- **GitHub Repository**: [https://github.com/dezuuu12/FormatUSB](https://github.com/dezuuu12/FormatUSB)
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/dezuuu12/FormatUSB/issues)
+- **GitHub Repository**: [https://github.com/dezuuu12/FormatUSB](https://github.com/danko1122q/FormatUSB)
+- **Issues & Bug Reports**: [GitHub Issues](https://github.com/danko1122q/FormatUSB/issues)
 - **Email**: formatusb1122@gmail.com
 
 ---
@@ -781,8 +781,8 @@ See [LICENSE](LICENSE) file for complete details.
 
 If this project is useful to you, please give it a ⭐ on GitHub!
 
-[![GitHub stars](https://img.shields.io/github/stars/dezuuu12/FormatUSB?style=social)](https://github.com/dezuuu12/FormatUSB)
-[![GitHub forks](https://img.shields.io/github/forks/dezuuu12/FormatUSB?style=social)](https://github.com/dezuuu12/FormatUSB/fork)
+[![GitHub stars](https://img.shields.io/github/stars/danko1122q/FormatUSB?style=social)](https://github.com/danko1122q/FormatUSB)
+[![GitHub forks](https://img.shields.io/github/forks/danko1122q/FormatUSB?style=social)](https://github.com/danko1122/FormatUSB/fork)
 
 ---
 
