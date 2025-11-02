@@ -99,22 +99,7 @@
 
 ## 📦 Installation
 
-### Method 1: Pre-built Binary
-
-**Download the latest release:**
-
-```bash
-# Download from GitHub Releases
-wget https://github.com/dezuuu12/FormatUSB/releases/download/v1.1.0/formatusb
-
-# Make it executable
-chmod +x formatusb
-
-# Run
-sudo ./formatusb
-```
-
-### Method 2: Build from Source
+### Method 1: Build from Source
 
 #### Step 1: Install Build Dependencies
 
