@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###############################################################################
-# FormatUSB Health Check Script v1.0.0.3
+# FormatUSB Health Check Script v1.0.3
 # Script untuk mengecek kesehatan dan kelengkapan aplikasi FormatUSB
 # Copyright (C) 2025 danko1122q
 ###############################################################################
@@ -22,7 +22,7 @@ WARNING_CHECKS=0
 # Functions
 print_header() {
     echo -e "${BLUE}═══════════════════════════════════════════════════════════${NC}"
-    echo -e "${BLUE}  FormatUSB Health Check - Version 1.0.0.3${NC}"
+    echo -e "${BLUE}  FormatUSB Health Check - Version 1.0.3${NC}"
     echo -e "${BLUE}═══════════════════════════════════════════════════════════${NC}"
     echo ""
 }
@@ -106,8 +106,8 @@ if [ -f "src.pro" ]; then
     check_pass "Found: src.pro (Qt project file)"
     
     # Check if version in src.pro is correct
-    if grep -q "1.0.0.3" src.pro; then
-        check_pass "Version 1.0.0.3 in src.pro"
+    if grep -q "1.0.3" src.pro; then
+        check_pass "Version 1.0.3in src.pro"
     else
         check_warn "Version mismatch in src.pro"
     fi
@@ -141,8 +141,8 @@ if [ -f "CHANGELOG.txt" ]; then
     check_pass "Found: CHANGELOG.txt"
     
     # Check version in CHANGELOG
-    if grep -q "1.0.0.3" CHANGELOG.txt; then
-        check_pass "Version 1.0.0.3 in CHANGELOG.txt"
+    if grep -q "1.0.3" CHANGELOG.txt; then
+        check_pass "Version 1.0.3 in CHANGELOG.txt"
     else
         check_warn "Version mismatch in CHANGELOG.txt"
     fi
@@ -164,8 +164,8 @@ if [ -f "lib/formatusb_lib" ]; then
     fi
     
     # Check version in lib
-    if grep -q "1.0.0.3" lib/formatusb_lib; then
-        check_pass "Version 1.0.0.3 in lib/formatusb_lib"
+    if grep -q "1.0.3" lib/formatusb_lib; then
+        check_pass "Version 1.0.3 in lib/formatusb_lib"
     else
         check_warn "Version mismatch in lib/formatusb_lib"
     fi
@@ -193,8 +193,8 @@ for file in "${doc_files[@]}"; do
         
         # Check version in documentation
         if [[ "$file" == "README"* ]]; then
-            if grep -q "1.0.0.3" "$file"; then
-                check_pass "Version 1.0.0.3 in $file"
+            if grep -q "1.0.3" "$file"; then
+                check_pass "Version 1.0.3 in $file"
             else
                 check_warn "Version mismatch in $file"
             fi
@@ -221,8 +221,8 @@ if [ -d "debian" ]; then
     
     # Check version in debian/changelog
     if [ -f "debian/changelog" ]; then
-        if grep -q "1.0.0.3" debian/changelog; then
-            check_pass "Version 1.0.0.3 in debian/changelog"
+        if grep -q "1.0.3" debian/changelog; then
+            check_pass "Version 1.0.3 in debian/changelog"
         else
             check_warn "Version mismatch in debian/changelog"
         fi
@@ -275,8 +275,8 @@ if [ -f "formatusb" ]; then
     fi
     
     # Try to check version
-    if ./formatusb --version 2>&1 | grep -q "1.0.0.3"; then
-        check_pass "formatusb reports correct version: 1.0.0.3"
+    if ./formatusb --version 2>&1 | grep -q "1.0.3"; then
+        check_pass "formatusb reports correct version: 1.0.3"
     else
         check_warn "formatusb version check failed or mismatch"
     fi
@@ -320,13 +320,13 @@ version_files=(
     "CHANGELOG.txt"
     "debian/changelog"
     "README.md"
-    "README1.md"
+    "Technical.md"
 )
 
 inconsistent_versions=0
 for file in "${version_files[@]}"; do
     if [ -f "$file" ]; then
-        if grep -q "1.0.0.3" "$file"; then
+        if grep -q "1.0.3" "$file"; then
             : # Version is correct
         else
             check_warn "Version inconsistency in: $file"
@@ -336,7 +336,7 @@ for file in "${version_files[@]}"; do
 done
 
 if [ $inconsistent_versions -eq 0 ]; then
-    check_pass "All version references are consistent (1.0.0.3)"
+    check_pass "All version references are consistent (1.0.3)"
 fi
 
 # 12. File Permissions Check
