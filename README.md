@@ -620,7 +620,7 @@ FormatUSB/
 
 **Major Update:**
 - ✅ **Updated** copyright to danko12
-- ✅ **Updated** repository URLs to https://github.com/dezuuu12/FormatUSB
+- ✅ **Updated** repository URLs to https://github.com/danko1122q/FormatUSB
 - ✅ **Modernized** codebase with enhanced error handling
 - ✅ **Improved** build system compatibility with Replit environment
 - ✅ **Enhanced** comprehensive English documentation
