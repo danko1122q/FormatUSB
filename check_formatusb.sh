@@ -3,7 +3,7 @@
 ###############################################################################
 # FormatUSB Health Check Script v1.0.0.3
 # Script untuk mengecek kesehatan dan kelengkapan aplikasi FormatUSB
-# Copyright (C) 2025 FormatUSB Team
+# Copyright (C) 2025 danko1122q
 ###############################################################################
 
 # Colors for output
